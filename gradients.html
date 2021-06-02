@@ -125,6 +125,30 @@
   <img src = "https://user-images.githubusercontent.com/76495035/108585542-99ae3780-730e-11eb-908f-3a1fb5942d67.png" height = 100>
 	  </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
           
+	<div id = "creategradients" class="text-block-article">
+          <h1 style = "font-family:georgia;color:white;font-size:24px;background-color:#87cefa;padding:15px;text-align:center;">Create Gradients</h1>
+	  <p style = "font-size:30px; font-family:georgia;">   1) Select/Enter a Color <br> 2) Generate Code for that Gradient</p>
+          <center>
+	  <table><tr><td>
+		<input type=color class="finder" value="#000000"></td>
+		<td><input type=color class="finder" value="#000000"></td></tr></table>
+	  </center><center>
+		<form name="myform" action="">
+   		<p style = "font-size:30px; font-family:georgia;">Starting Color (in Hex Code with # symbol):</p>
+  		<input type="text" name="StartingColor" value = ""><br><br>
+  		<p style = "font-size:30px; font-family:georgia;">Ending Color (in Hex Code with # symbol): </p>
+  		<input type="text" name="EndingColor" value = ""><br><br>
+  		<input type="button" style = "border:none; color:white; padding:8px; font-family:georgia; text-decoration: none; font-size: 18px; background-color:#87cefa; border-radius: 12px; left: 150px;" name="button" value="GenerateCode" onclick="showData(this.form)">
+		</form></center>
+ 		<script>
+ 		function showData (form) {
+    			var Start = form.StartingColor.value;
+    			var End = form.EndingColor.value;
+    			alert ("background-image: linear-gradient(to right," + Start+","+ End+");");
+    			}
+ 		</script>
+	  </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	      
         <h1 style = "background-color:#98FB98;font-family:georgia;color:white;text-align:center;padding:50px;font-size:16px">
 	© Copyright A+ColorDesign. All Rights Reserved 
   	</h1>
