@@ -461,26 +461,24 @@
     </tr>
           </table></div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <style>
-          label.color-picker {
-  	width: 300px; 
-	length: 300px;
-  	border: 5px solid black; 
-  	border-radius: 12px; 
-  	padding: 20px;
-  	background: #fff;
-  	display: block;
-	}
+	.color-picker > span > input[type=color] {
+       height: 10px; /* Height of color picker */
+       display: block; /* Avoids space above/below color picker */
+        width: 100%; /* Fill available horizontal space */
+       border: none; /* Remove browser's border */
+        padding: 0px; /* Remove space around color picker in Chrome */
+        }
         </style>
         <div id = "findcolorcodes" class="text-block-article">
           <h1 style = "font-family:georgia;color:white;font-size:24px;background-color:#87cefa;padding:15px;text-align:center;">Find Color Codes</h1>
           <p style = "font-size:30px; font-family:georgia;">   1) Select a Color <br> 2) Copy the Codes for that Color</p>
-          <center><label class="color-picker"><span>
-		  <input type=color value="#000000"></span>
-		  </label></div></center><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          <center><div class="finder">
+		  <input type=color value="#000000">
+	  </div></div></center><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         
         <h1 style = "background-color:#98FB98;font-family:georgia;color:white;text-align:center;padding:50px;font-size:16px">
-© Copyright A+ColorDesign. All Rights Reserved 
-  </h1>
+	© Copyright A+ColorDesign. All Rights Reserved 
+  	</h1>
 	      
     </body>
 </html>
