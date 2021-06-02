@@ -138,13 +138,16 @@
   		<input type="text" name="StartingColor" value = "#"><br><br>
   		<p style = "font-size:30px; font-family:georgia;">Ending Color (in Hex Code): </p>
   		<input type="text" name="EndingColor" value = "#"><br><br>
+		<p style = "font-size:30px; font-family:georgia;">Degree of Gradient (Enter A Number): </p>
+  		<input type="text" name="Degree" value = ""><br><br>
   		<input type="button" style = "border:none; color:white; padding:8px; font-family:georgia; text-decoration: none; font-size: 18px; background-color:#87cefa; border-radius: 12px; left: 150px;" name="button" value="Generate Code" onclick="showData(this.form)">
 		</form></center>
  		<script>
  		function showData (form) {
     			var Start = form.StartingColor.value;
     			var End = form.EndingColor.value;
-    			alert ("background-image: linear-gradient(to right," + Start+","+ End+");");
+			var Deg = form.Degree.value
+    			alert ("background-image: linear-gradient("Deg+"deg"+", "+ Start+","+ End+");");
     			}
  		</script>
 	  </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
